@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Http;
+
+@{
+    ViewData["Title"] = "The Wall";
+}
+
+<div class="row mb-3">
+    @{
+        if(@Context.Session.GetString("UserName") != null)
+        {
+            <h5>Post a message</h5>
+            <partial name="_messageform" />
+        }
+    }
+</div>
+<div class="row">
+    @{
+        if(Context.Session.GetInt32("UserId") != null)
+        {
+            int UserId = (int)Context.Session.GetInt32("UserId");
+        }
+
+        foreach (var message in ViewBag.Messages)
+        {
+            <div class="mb-3 border rounded p-3">
+                <partial name="_message" model="message" />
+                @{
+                    if(Context.Session.GetInt32("UserId") != null && Context.Session.GetInt32("UserId") != message.UserId)
+                    {
+                        ViewData["MessageId"] = message.MessageId;
+                        <partial name="_commentform" view-data="ViewData" />
+                    }
+                }
+            </div>
+        }
+    }
+</div>

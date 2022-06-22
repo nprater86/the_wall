@@ -1,0 +1,18 @@
+@using Microsoft.AspNetCore.Http;
+@model Comment;
+
+@{
+    int UserId = (int)Context.Session.GetInt32("UserId");
+}
+
+<form asp-action="CreateComment" asp-controller="Comment">
+    <input type="hidden" name="UserId" value="@UserId">
+    <input type="hidden" name="MessageId" value="@ViewData["MessageId"]">
+    <div class="mb-3">
+        <textarea class="form-control" name="Content" style="resize: none;" rows="4"></textarea>
+        <small><span class="text-danger" asp-validation-for="Content"></span></small>
+    </div>
+    <div>
+        <input class="btn btn-secondary" type="submit" value="Post a comment">
+    </div>
+</form>

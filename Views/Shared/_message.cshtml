@@ -1,0 +1,31 @@
+@using Microsoft.AspNetCore.Http;
+@model Message;
+
+<div class="mb-3">
+    <h6 class="mb-2">@Model.Creator.FirstName @Model.Creator.LastName on @Model.CreatedAt.ToString("MMMM dd, yyyy") at @Model.CreatedAt.ToString("hh:mm tt")</h6>
+    <p class="mb-0">@Model.Content</p>
+    @{
+        if(Context.Session.GetInt32("UserId") != null)
+        {
+            int UserId = (int)Context.Session.GetInt32("UserId");
+            if(@Model.Creator.UserId == UserId && @Model.AgeUnder30Min())
+            {
+                <a href="messages/delete/@Model.MessageId">Delete</a>
+            }
+        }
+        if(@Model.CommentsOnMessage.Count > 0)
+        {
+            <div class="mt-3">
+                @{
+                    foreach(var comment in @Model.CommentsOnMessage)
+                    {
+                        <div class="ms-5 mb-3">
+                            <h6 class="mb-2">@comment.User.FirstName @comment.User.LastName on @comment.CreatedAt.ToString("MMMM dd, yyyy") at @comment.CreatedAt.ToString("hh:mm tt")</h6>
+                            <p class="mb-0">@comment.Content</p>
+                        </div>
+                    }
+                }
+            </div>
+        }
+    }
+</div>

@@ -1,0 +1,17 @@
+@using Microsoft.AspNetCore.Http;
+@model Message;
+
+@{
+    int UserId = (int)Context.Session.GetInt32("UserId");
+}
+
+<form asp-action="CreateMessage" asp-controller="Message">
+    <input type="hidden" name="UserId" value="@UserId">
+    <div class="mb-3">
+        <textarea class="form-control" name="Content" style="resize: none;" rows="4"></textarea>
+        <small><span class="text-danger" asp-validation-for="Content"></span></small>
+    </div>
+    <div>
+        <input class="btn btn-primary" type="submit" value="Post a message">
+    </div>
+</form>
