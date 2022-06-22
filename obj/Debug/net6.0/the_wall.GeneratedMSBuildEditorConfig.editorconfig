@@ -8,53 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = the_wall
 build_property.RootNamespace = the_wall
-build_property.ProjectDir = C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Projects\the_wall\
+build_property.ProjectDir = c:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Projects\the_wall\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Projects\the_wall
+build_property.MSBuildProjectDirectory = c:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Projects\the_wall
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Home/Index.cshtml]
+[c:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/Error.cshtml]
+[c:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/_commentform.cshtml]
+[c:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/_commentform.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jb21tZW50Zm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/_message.cshtml]
+[c:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/_message.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9tZXNzYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/_messageform.cshtml]
+[c:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/_messageform.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9tZXNzYWdlZm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/User/Login.cshtml]
+[c:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/User/Register.cshtml]
+[c:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/_ViewImports.cshtml]
+[c:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/_ViewStart.cshtml]
+[c:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/_Layout.cshtml]
+[c:/Users/nprat/OneDrive/Documents/Coding_Dojo/Assignments/Projects/the_wall/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t47l077ca5
